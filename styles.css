@@ -1,0 +1,160 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body {
+    background: #1F2937;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 200px;
+    padding: 20px;
+}
+
+.header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+}
+ 
+ul {
+    list-style-type: none;
+    align-items: center;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 200px;
+    padding: 50px;
+    margin-bottom: 75px;
+}
+
+.hero-text {
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.hero-img-section {
+    flex: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-img {
+    width: 350px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.info-section {
+    background: #f9faf8;
+    color: #1f2937;
+}
+
+.info-section h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-weight: 800;
+}
+
+.info-tile-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 50px;
+    margin: auto 200px;
+    padding-bottom: 100px;
+    gap: 100px;
+}
+
+.tile-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tile-img {
+    width: 200px;
+    height: auto;
+    border: #3882f6;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.quote-section {
+    background: #e5e7eb;
+    color: #1f2937;
+}
+
+.quote-text { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto 500px;
+    padding: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.signature {
+    font-size: 24px;
+    font-weight: 800;
+    align-self: flex-end;
+}
+
+.cta-section {
+    background: #f9faf8;
+    color: #1f2937;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 200px;
+    padding: 100px 200px;
+}   
+
+.cta-text-section {
+    padding: 50px;
+    background-color: #3882f6;
+    border-radius: 20px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
